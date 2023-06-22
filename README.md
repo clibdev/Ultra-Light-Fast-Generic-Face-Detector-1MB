@@ -3,6 +3,9 @@
 Differences between original repository and fork:
 
 * Compatibility with PyTorch >=2.0. (🔥)
+* The following errors has been fixed:
+  * cv2.error: Can't parse 'xx'. Sequence item with index 0 has a wrong type.
+  * cv2.error: Can't parse 'xx'. Expected sequence length 4, got 2.
 
 # Installation
 
