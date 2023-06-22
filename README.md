@@ -1,3 +1,17 @@
+# Fork of [Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB](https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB)
+
+Differences between original repository and fork:
+
+* Compatibility with PyTorch >=2.0. (🔥)
+
+# Installation
+
+```shell
+pip install -r requirements.txt
+```
+
+
+
 [English](https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB ) | [中文简体](https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB/blob/master/README_CN.md)
 # Ultra-Light-Fast-Generic-Face-Detector-1MB 
 # Ultra-lightweight face detection model
