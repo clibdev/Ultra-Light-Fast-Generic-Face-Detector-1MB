@@ -3,6 +3,7 @@
 Differences between original repository and fork:
 
 * Compatibility with PyTorch >=2.0. (🔥)
+* Sample script [detect_img.py](detect_img.py) for inference of single image.
 * The following errors has been fixed:
   * cv2.error: Can't parse 'xx'. Sequence item with index 0 has a wrong type.
   * cv2.error: Can't parse 'xx'. Expected sequence length 4, got 2.
@@ -13,6 +14,11 @@ Differences between original repository and fork:
 pip install -r requirements.txt
 ```
 
+# Inference
+
+```shell
+python detect_img.py --net_type RFB --path imgs/1.jpg
+```
 
 
 [English](https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB ) | [中文简体](https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB/blob/master/README_CN.md)
