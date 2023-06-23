@@ -3,6 +3,7 @@
 Differences between original repository and fork:
 
 * Compatibility with PyTorch >=2.0. (🔥)
+* Original pretrained models from GitHub [releases page](https://github.com/clibdev/Ultra-Light-Fast-Generic-Face-Detector-1MB/releases). (🔥)
 * Sample script [detect_img.py](detect_img.py) for inference of single image.
 * The following deprecations and errors has been fixed:
   * DeprecationWarning: 'np.float' is a deprecated alias for builtin 'float'.
