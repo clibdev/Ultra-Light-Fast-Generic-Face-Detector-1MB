@@ -30,8 +30,8 @@ test_device = "cuda:0"
 candidate_size = 800
 threshold = 0.1
 
-val_image_root = "/pic/linzai/1080Ti/home_linzai/PycharmProjects/insightface/RetinaFace/data/retinaface/val"  # path to widerface valuation image root
-val_result_txt_save_root = "./widerface_evaluation/"  # result directory
+val_image_root = "../data/widerface/val/images/"  # path to widerface valuation image root
+val_result_txt_save_root = "./widerface_txt/"  # result directory
 
 if net_type == 'slim':
     model_path = "../models/pretrained/version-slim-320.pth"
