@@ -62,5 +62,5 @@ torch.onnx.export(
     verbose=False,
     input_names=['input'],
     output_names=['scores', 'boxes'],
-    opset_version=19
+    opset_version=18
 )
