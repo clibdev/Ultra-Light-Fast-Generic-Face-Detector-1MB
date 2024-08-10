@@ -2,12 +2,13 @@
 
 Differences between original repository and fork:
 
-* Compatibility with PyTorch >=2.0. (🔥)
+* Compatibility with PyTorch >=2.4. (🔥)
 * Original pretrained models and converted ONNX models from GitHub [releases page](https://github.com/clibdev/Ultra-Light-Fast-Generic-Face-Detector-1MB/releases). (🔥)
 * Sample script [detect_img.py](detect_img.py) for inference of single image.
 * Added command line arguments to [convert_to_onnx.py](convert_to_onnx.py).
 * The following deprecations and errors has been fixed:
   * DeprecationWarning: 'np.float' is a deprecated alias for builtin 'float'.
+  * FutureWarning: You are using 'torch.load' with 'weights_only=False'.
   * FutureWarning: Cython directive 'language_level' not set.
   * Cython Warning: Using deprecated NumPy API.
   * cv2.error: Can't parse 'xx'. Sequence item with index 0 has a wrong type.
